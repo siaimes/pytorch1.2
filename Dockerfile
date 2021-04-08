@@ -6,4 +6,4 @@ RUN conda install -y scikit-learn pandas
 
 RUN pip install opencv-python
 
-RUN apt update && apt install -y libgl1-mesa-glx
+RUN apt update && apt install -y libgl1-mesa-glx libpci-dev curl nano
